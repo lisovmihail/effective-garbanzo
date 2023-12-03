@@ -1,0 +1,19 @@
+struct EnvironmentValuesUsageView: View {
+    
+    var body: some View {
+        
+        VStack {
+            ColoredRoundRectangle()
+            HStack {
+                ColoredRoundRectangle()
+                ColoredRoundRectangle()
+                ColoredRoundRectangle()
+            }
+            .rectangleColor(.green)
+            ColoredRoundRectangle()
+            Group {
+                HStack {
+                    ColoredRoundRectangle()
+                    ColoredRoundRectangle()
+                    ColoredRoundRectangle()
+                }
